@@ -1,7 +1,6 @@
-/* Global */
 body {
   font-family: "HiraMinProN-W3", "Yumincho", "Meiryo";
-  font-color: #000000;
+  color: #000000;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -15,38 +14,107 @@ a {
 h1 {
   font-family: "Futura-Medium", "Century Gothic", "HiraMinProN-W3", "Yumincho";
   font-size: 24px;
-  letter-spacing: -10%;
-  margin: auto;
-  text-align: center;
+  letter-spacing: -3px;
+  margin: 10px auto 10px;
 }
 
 .formwords {
   font-family: "Futura-Medium", "Century Gothic";
   font-size: 24px;
-  font-color: "#D6D6D6";
+  color: "#D6D6D6";
 }
 
 .information {
   font-family: "Futura-Medium", "Century Gothic";
   font-size: 12px;
+  text-align: right;
+  margin: 5px 5px 5px;
+}
+
+.information2 {
+  font-family: "Futura-Medium", "Century Gothic";
+  font-size: 12px;
 }
 
 .frame {
+ max-width: 500px;
  border-style: solid;
  border-width: 1px;
  border-radius: 5px;
  border-color: #85888D;
- margin: 10px;
- padding: 5px;
+ margin: 30px auto 30px;
+ padding: 10px;
 }
 
 .title {
   font-family: "Futura-Medium", "Century Gothic";
-  font-size: 40px;
+  font-size: 50px;
+  letter-spacing: 5px;
   text-align: center;
-  letter-spacing: 3px;
+  margin: 0px auto 20px;
 }
 
 .menu {
-  font-family: "foundation-icons"
+  margin: 10px auto 20px;
+  text-align: center;
+}
+
+.caption {
+  font-size: 12px;
+  color: #C0C0C0;
+  margin: -10px auto 10px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+.menubutton {
+  width: 25px;
+  font-family: "Futura-Medium", "Century Gothic";
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #85888D;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+
+.button {
+  width: 50px;
+  font-family: "Futura-Medium", "Century Gothic";
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #85888D;
+  margin-left: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+div.contents.row {
+ max-width: 320px;
+ margin: 0 auto;
+ font-family: "Futura-Medium", "Century Gothic";
+  input,textarea {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #85888D;
+    padding: 10px;
+    width: 95%;
+    font-family: "Futura-Medium", "Century Gothic";
+    font-size: 24px;
+    color: "#D6D6D6";
+  }
+  success {
+  text-align:center;
+  }
 }

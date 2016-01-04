@@ -1,0 +1,11 @@
+  <div class="contents row">
+    <%= form_tag('/tweets', method: :post) do %>
+      <div style="text-align:center;"><h1>POST ARU-ARU</h1></div>
+      <div class="caption">「大学4年の後期なのに単位が残っている人あるある」を投稿する</div>
+
+      <p><input placeholder="name" type="text" name="name"></p>
+      <p><input placeholder="the number of tan-i" type="text" name="tani"></p>
+      <p><textarea name="text" maxlength="100" placeholder="100 characters or less." rows="10"></textarea></p>
+      <p><input type="submit" value="SEND"></p>
+    <% end %>
+  </div>

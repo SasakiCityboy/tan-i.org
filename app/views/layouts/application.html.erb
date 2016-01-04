@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TanIOrg</title>
+  <title>tan-i.org</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+    <header>
+      <div class="menubutton"><i class="fi-list-bullet"></i></div>
+    <% if user_signed_in? %>
+      <div class="button"><i class="fi-torso"></i>12 ∨</div>
+    <% else %>
+      <div class="button">login ∨</div>
+    <% end %>
+      <div class="title"><a href="/tweets">tan-i.org</a></div>
+      <div class="menu"><a href="/tweets/new"><i class="fi-pencil"></i></a>　<i class="fi-book"></i>　<i class="fi-music"></i>　<i class="fi-torsos-all"></i></div>
+    </header>
 <%= yield %>
 
 </body>
