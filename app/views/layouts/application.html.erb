@@ -10,7 +10,7 @@
     <header>
       <div class="menubutton"><i class="fi-list-bullet"></i></div>
     <% if user_signed_in? %>
-      <div class="button"><i class="fi-torso"></i>12 ∨</div>
+    <div class="button"><a href="/users/<%= current_user.id %>"><i class="fi-torso"></i><%= current_user.tani %></a></div>
     <% else %>
       <div class="button"><%= link_to "login", new_user_session_path, class: 'post' %></div>
     <% end %>
