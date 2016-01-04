@@ -99,6 +99,13 @@ h1 {
   display: block;
 }
 
+.links {
+  text-align:center;
+  font-family: "Futura-Medium", "Century Gothic";
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
 div.contents.row {
  max-width: 320px;
  margin: 0 auto;
@@ -116,5 +123,17 @@ div.contents.row {
   }
   success {
   text-align:center;
+  }
+}
+
+div.footer {
+  text-align:center;
+  font-size:14px;
+  font-family:'Futura-Medium';
+  margin-top:20px;
+  margin-bottom:50px;
+  a {
+  text-decoration: none;
+  color: #C0C0C0;
   }
 }

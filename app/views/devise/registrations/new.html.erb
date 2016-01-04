@@ -10,7 +10,7 @@
   </div>
 
   <div class="field">
-  ID
+  ID(6 characters maximum)
     <%= f.text_field :nickname, autofocus: true, maxlength: "6" %>
   </div>
 
@@ -32,10 +32,12 @@
     <%= f.password_field :password_confirmation, autocomplete: "off" %>
   </div>
 
-  <div style="text-align:center;margin-top:10px;">
+  <div style="text-align:center;margin-top:20px;margin-bottom:20px;">
     <%= f.submit "SIGN UP" %>
   </div>
 <% end %>
   </div>
 
+<div class="links">
 <%= render "devise/shared/links" %>
+</div>
