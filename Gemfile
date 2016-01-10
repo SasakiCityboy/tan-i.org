@@ -50,9 +50,6 @@ gem 'compass-rails','~> 2.0'
 gem 'sprockets', '2.11.0'
 gem 'kaminari'
 gem 'devise'
-gem 'therubyracer' # javascript runtime。lessをコンパイルするために必要
-gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
-gem 'twitter-bootstrap-rails' # Bootstrapの本体
 
 group :production, :staging do
   gem 'rails_12factor'
