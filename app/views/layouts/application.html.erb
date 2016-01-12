@@ -8,12 +8,7 @@
 </head>
 <body>
     <header>
-      <div class="menubutton1"><i class="fi-list-bullet"></i></div>
-    <% if user_signed_in? %>
-    <div class="button"><a href="/users/<%= current_user.id %>"><i class="fi-torso"></i><%= current_user.tani %></a></div>
-    <% else %>
-      <div class="button"><%= link_to "login", new_user_session_path, class: 'post' %></div>
-    <% end %>
+
       <div class="title"><a href="/">tan-i.org</a></div>
       <div class="menuicons"><a href="/tweets/new"><i class="fi-pencil"></i></a>　<i class="fi-book"></i>　<i class="fi-music"></i>　<i class="fi-torsos-all"></i></div>
     </header>

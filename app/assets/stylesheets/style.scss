@@ -138,8 +138,8 @@ div.footer {
   }
 }
 
-@media all and (max-width: 380px) {
-  body {
-  max-width:320px;
+@media (max-width: 380px) {
+  div.frame {
+  width:100%;
   }
 }
