@@ -54,7 +54,7 @@ h1 {
   margin: 0px auto 20px;
 }
 
-.menu {
+.menuicons {
   margin: 10px auto 20px;
   text-align: center;
 }
@@ -67,7 +67,7 @@ h1 {
   letter-spacing: -2px;
 }
 
-.menubutton {
+.menubutton1 {
   width: 25px;
   font-family: "Futura-Medium", "Century Gothic";
   font-size: 14px;
@@ -135,5 +135,11 @@ div.footer {
   a {
   text-decoration: none;
   color: #C0C0C0;
+  }
+}
+
+@media all and (max-width: 380px) {
+  body {
+  max-width:320px;
   }
 }
