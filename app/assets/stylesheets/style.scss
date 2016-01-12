@@ -13,8 +13,8 @@ a {
 
 h1 {
   font-family: "Futura-Medium", "Century Gothic", "HiraMinProN-W3", "Yumincho";
-  font-size: 24px;
-  letter-spacing: -3px;
+  font-size: 4rem;
+  letter-spacing: -0.8rem;
   margin: 10px auto 10px;
 }
 
@@ -37,7 +37,7 @@ h1 {
 }
 
 .frame {
- width: 95%;
+ width: 90%;
  border-style: solid;
  border-width: 1px;
  border-radius: 5px;
@@ -48,15 +48,16 @@ h1 {
 
 .title {
   font-family: "Futura-Medium", "Century Gothic";
-  font-size: 50px;
-  letter-spacing: 5px;
+  font-size: 9rem;
+  letter-spacing: 1rem;
   text-align: center;
-  margin: 0px auto 20px;
+  margin: 20px auto 20px;
 }
 
 .menuicons {
   margin: 10px auto 20px;
   text-align: center;
+  font-size: 3.5rem;
 }
 
 .caption {
@@ -136,7 +137,4 @@ div.footer {
   text-decoration: none;
   color: #C0C0C0;
   }
-}
-
-@media (max-width: 380px) {
 }
