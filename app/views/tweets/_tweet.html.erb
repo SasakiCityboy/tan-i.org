@@ -3,12 +3,12 @@
   <div class="information">
     @hogehoge
     <% if user_signed_in? && current_user.id == tweet.user_id %>
-      <%= link_to "/tweets/#{tweet.id}", method: :delete do %>
-          　<i class="fi-trash"></i>
+      　<%= link_to "/tweets/#{tweet.id}", method: :delete do %>
+          <i class="fi-trash"></i>
       <% end %>
-      <%= link_to "/tweets/#{tweet.id}/edit", method: :get do %>
+      　<%= link_to "/tweets/#{tweet.id}/edit", method: :get do %>
       <i class="fi-page-edit"></i>
-         　<% end %>
+         <% end %>
     <% end %>
   </div>
 </div>
