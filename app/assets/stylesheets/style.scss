@@ -84,10 +84,10 @@ h1 {
 .button {
   width: 95%;
   font-family: "Futura-Medium", "Century Gothic";
-  font-size: 14px;
+  font-size: 1.5rem;
   border-style: solid;
   border-width: 1px;
-  border-radius: 5px;
+  border-radius: 1px;
   border-color: #85888D;
   margin-left: auto;
   padding: 5px;
@@ -108,18 +108,18 @@ h1 {
 }
 
 div.contents.row {
- width: 90%;
+ width: 100%;
  margin: 0 auto;
  font-family: "Futura-Medium", "Century Gothic";
   input,textarea {
     border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
+    border-width: 1px;
+    border-radius: 1px;
     border-color: #85888D;
     padding: 10px;
     width: 100%;
     font-family: "Futura-Medium", "Century Gothic";
-    font-size: 4rem;
+    font-size: 1.5rem;
     color: "#D6D6D6";
   }
   success {
