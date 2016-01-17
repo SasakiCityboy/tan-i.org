@@ -14,8 +14,15 @@
     <% else %>
       <div class="button"><%= link_to "login", new_user_session_path, class: 'post' %></div>
     <% end %> -->
-      <div class="title"><a href="/">tan-i.org</a></div>
-      <div class="menuicons"><a href="/tweets/new"><i class="fi-pencil"></i></a>　<i class="fi-book"></i>　<i class="fi-music"></i>　<i class="fi-torsos-all"></i></div>
+  <div class="title"><a href="/">tan-i.org</a></div>
+  <div class="menuicons">
+    <% if user_signed_in? %>
+      <a href="/tweets/new"><i class="fi-pencil"></i></a>
+    <% else %>
+      <a href="users/sign_in"><i class="fi-pencil"></i></a>
+    <% end %>
+      　<i class="fi-book"></i>　<i class="fi-music"></i>　<i class="fi-torsos-all"></i>
+  </div>
     </header>
 <%= yield %>
 
