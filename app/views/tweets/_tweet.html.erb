@@ -1,4 +1,9 @@
 <div class="frame">
   <%= tweet.text %>
-  <div class="information">@hogehoge</div>
+  <div class="information">
+    @hogehoge　
+    <% if user_signed_in? && current_user.id == tweet.user_id %>
+      <%= link_to 'delete', "/tweets/#{tweet.id}", method: :delete %>
+    <% end %>
+  </div>
 </div>
