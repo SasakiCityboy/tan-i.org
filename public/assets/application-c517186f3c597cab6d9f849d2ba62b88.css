@@ -46,10 +46,10 @@ h1 {
   width: 90%;
   font-size: 3rem;
   border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
+  border-width: 2px;
+  border-radius: 1rem;
   border-color: #85888D;
-  margin: 40px auto 40px;
+  margin: 50px auto 50px;
   padding: 3%;
 }
 
@@ -94,7 +94,7 @@ h1 {
 
 /* line 84, /Users/Sasaki/projects/tan-i.org/app/assets/stylesheets/style.scss */
 .button {
-  width: 50px;
+  width: 95%;
   font-family: "Futura-Medium", "Century Gothic";
   font-size: 14px;
   border-style: solid;
@@ -123,7 +123,7 @@ h1 {
 
 /* line 110, /Users/Sasaki/projects/tan-i.org/app/assets/stylesheets/style.scss */
 div.contents.row {
-  max-width: 320px;
+  width: 95%;
   margin: 0 auto;
   font-family: "Futura-Medium", "Century Gothic";
 }
