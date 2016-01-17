@@ -28,7 +28,11 @@
 
 <footer>
   <div class="footer">
+    <% if user_signed_in? %>
   <%= link_to "SIGN OUT", destroy_user_session_path, method: :delete %>
+    <% else %>
+  <%= link_to "SIGN IN", new_user_session_path, class: 'post' %>
+    <% end %>
   </div>
 </footer>
 
