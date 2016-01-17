@@ -19,7 +19,7 @@ h1 {
 
 .formwords {
   font-family: "Futura-Medium", "Century Gothic";
-  font-size: 24px;
+  font-size: 2rem;
   color: "#D6D6D6";
 }
 
@@ -113,13 +113,13 @@ div.contents.row {
  font-family: "Futura-Medium", "Century Gothic";
   input,textarea {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-radius: 5px;
     border-color: #85888D;
     padding: 10px;
-    width: 95%;
+    width: 100%;
     font-family: "Futura-Medium", "Century Gothic";
-    font-size: 24px;
+    font-size: 3rem;
     color: "#D6D6D6";
   }
   success {
