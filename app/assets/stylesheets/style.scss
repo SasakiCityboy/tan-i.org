@@ -12,8 +12,8 @@ a {
 
 h1 {
   font-family: "Futura-Medium", "Century Gothic", "HiraMinProN-W3", "Yumincho";
-  font-size: 4rem;
-  letter-spacing: -0.8rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.2rem;
   margin: 10px auto 10px;
 }
 
@@ -25,7 +25,7 @@ h1 {
 
 .information {
   font-family: "Futura-Medium", "Century Gothic";
-  font-size: 2rem;
+  font-size: 0.7rem;
   text-align: right;
   margin: 5px 5px 5px;
 }
@@ -37,19 +37,19 @@ h1 {
 
 .frame {
  width: 90%;
- font-size: 3rem;
+ font-size: 1.3rem;
  border-style: solid;
- border-width: 2px;
- border-radius: 1rem;
+ border-width: 1px;
+ border-radius: 0.5rem;
  border-color: #85888D;
- margin: 50px auto 50px;
+ margin: 1.2rem auto 1.2rem;
  padding: 3%;
 }
 
 .title {
   font-family: "Futura-Medium", "Century Gothic";
-  font-size: 9rem;
-  letter-spacing: 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
   text-align: center;
   margin: 20px auto 20px;
 }
@@ -57,11 +57,11 @@ h1 {
 .menuicons {
   margin: 10px auto 20px;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 1.2rem;
 }
 
 .caption {
-  font-size: 2rem;
+  font-size: 0.5rem;
   color: #C0C0C0;
   margin: -10px auto 10px;
   text-align: center;
@@ -141,8 +141,8 @@ div.footer {
 
 nav.pagination {
   font-family:'Futura-Medium';
-  margin-top:6rem;
-  margin-bottom:6rem;
+  margin-top:2rem;
+  margin-bottom:2rem;
   text-align:center;
-  font-size:3rem;
+  font-size:1.5rem;
 }
