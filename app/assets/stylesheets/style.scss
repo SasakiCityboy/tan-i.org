@@ -11,27 +11,27 @@ a {
 }
 
 h1 {
-  font-family: "Futura-Medium", "Century Gothic", "HiraMinProN-W3", "Yumincho";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold", "HiraMinProN-W3", "Yumincho";
   font-size: 1.4rem;
   letter-spacing: -0.2rem;
   margin: 0.5rem auto 0.5rem;
 }
 
 .formwords {
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 2rem;
   color: "#D6D6D6";
 }
 
 .information {
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 0.7rem;
   text-align: right;
   margin: 5px 5px 5px;
 }
 
 .information2 {
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 2rem;
 }
 
@@ -47,7 +47,7 @@ h1 {
 }
 
 .title {
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 2.6rem;
   letter-spacing: 0.5rem;
   text-align: center;
@@ -70,7 +70,7 @@ h1 {
 
 .menubutton1 {
   width: 25px;
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 14px;
   border-style: solid;
   border-width: 1px;
@@ -83,7 +83,7 @@ h1 {
 
 .button {
   width: 95%;
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 1.5rem;
   border-style: solid;
   border-width: 1px;
@@ -102,7 +102,7 @@ h1 {
 
 .links {
   text-align:center;
-  font-family: "Futura-Medium", "Century Gothic";
+  font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   font-size: 24px;
   margin-bottom: 50px;
 }
@@ -110,7 +110,7 @@ h1 {
 div.contents.row {
  width: 100%;
  margin: 0 auto;
- font-family: "Futura-Medium", "Century Gothic";
+ font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
   input,textarea {
     border-style: solid;
     border-width: 1px;
@@ -118,7 +118,7 @@ div.contents.row {
     border-color: #85888D;
     padding: 10px;
     width: 90%;
-    font-family: "Futura-Medium", "Century Gothic";
+    font-family: "Futura-Medium", "Century Gothic", "texgyreadventorbold";
     font-size: 1.5rem;
     color: "#D6D6D6";
   }
@@ -130,7 +130,7 @@ div.contents.row {
 div.footer {
   text-align:center;
   font-size:0.8rem;
-  font-family:'Futura-Medium';
+  font-family:'Futura-Medium', 'texgyreadventorbold';
   margin-top:4rem;
   margin-bottom:5rem;
   a {
@@ -140,7 +140,7 @@ div.footer {
 }
 
 nav.pagination {
-  font-family:'Futura-Medium';
+  font-family:'Futura-Medium', 'texgyreadventorbold';
   margin-top:2rem;
   margin-bottom:2rem;
   text-align:center;
