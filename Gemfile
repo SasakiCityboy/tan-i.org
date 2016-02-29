@@ -54,3 +54,6 @@ gem 'devise'
 group :production, :staging do
   gem 'rails_12factor'
 end
+
+gem "middleman"
+gem "middleman-blog"
